@@ -1,0 +1,1 @@
+a:2:{i:0;a:2:{s:4:"time";i:1444136180;s:4:"addr";s:44:"Z:/home/mic.loc/www/i/js/dev/jquery-2.0.3.js";}i:1;a:2:{s:4:"time";i:1444136180;s:4:"addr";s:46:"Z:/home/mic.loc/www/i/js/dev/jquery.browser.js";}}
