@@ -1,60 +1,72 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
-
-<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 <head>
-<title>Глория</title>
-
-<link rel="stylesheet" href="css/reset.css" type="text/css" media="all">
-<link rel="stylesheet" href="css/layout.css" type="text/css" media="all">
-<link rel="stylesheet" href="css/style.css" type="text/css" media="all">
-<script type="text/javascript" src="js/jquery-1.4.2.js" ></script>
-
-<!--[if lt IE 9]>
-	<script type="text/javascript" src="http://info.template-help.com/files/ie6_warning/ie6_script_other.js"></script>
-	<script type="text/javascript" src="js/html5.js"></script>
-<![endif]-->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Gloria Investment llp</title>
+<link rel="stylesheet" href="css/reset.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="css/style.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="css/grid.css" type="text/css" media="screen" />
+    	
 </head>
-<body id="page1">
-<div class="body3"></div>
-<div class="body1">
 
-	<div class="main">
-
-<!-- header -->
-		<header>
-
-			<div id="logo_box">
-				<h1><a href="<?= SiteRoot()?>" id="logo">Gloria Investment ltd.<span></span></a></h1>
-			</div>
-		<nav>
-				<ul id="menu">
-					<li id="menu_active"><a href="<?= SiteRoot()?>">Home</a></li>
-					<li><a href="<?= SiteRoot("test")?>">О нас</a></li>
-					<li><a href="<?= SiteRoot("quality")?>">Качество</a></li>
-					<li><a href="<?= SiteRoot("transport")?>">Транспорт</a></li>
-					<li class="bg_none"><a href="<?= SiteRoot("Contacts")?>">Контакты</a></li>
+<body>
+<div id="wrapper">
+	<div id="header">
+    	<div class="inner container_12 clearfix">
+        	<div id="logo" class="grid_5">
+            	<h1><a href="/" title="Gloria Investment llp ">Gloria Investment llp </a></h1>
+                <p id="slogan">We sale honey</p>
+            </div><!-- end logo -->
+            
+           
+        </div><!-- end header inner -->
+    </div><!-- end header -->
+	
+	 <div id="nav" class="container_12 clearfix">
+            	<ul>
+					<li><a href="/">Home</a></li>
+					<li><a href="<?= SiteRoot("about")?>">About Us</a></li>
+					<li><a href="#">Services</a></li>
+                    <li><a href="#">Products</a></li>
+					<li><a href="<?= SiteRoot("contact")?>">Contact Us</a></li>
 				</ul>
-		</nav>
+            </div><!-- end nav -->
+    
+    
+   
+    
+    <div id="content">
+		<div class="inner container_12 clearfix">
+			<div class="container"><?= $content?></div>
+			<div id="sidebar" class="grid_4">
+				<div class="inner">
 
-		</header>
-<!-- / header -->
+					<img src="images/image3.jpg" alt="image" class="imgborder" />
 
-<!-- Content -->
-		<div id="content">
-<?= $content?>
-			</div>
-<!-- /Content -->
+					<div id="address">
+						<h3>Contact Information</h3>
+						<p>Suite 9, 8 Shepherd Market, <br />
+							Mayfair, London W1J 7JY <br/>
+							United Kingdom</p>
 
+						<p><strong>Phone:</strong> +37069988381</p>
 
-</div>
-</div>
-<footer>
-	<div class="under2"></div>
-		<div class="pad font_size">
-			<p><u><a href="http://m-group.pp.ua" target="_blank">M-group &copy; 2016</a></u></p>
-		</div>
+						<p><strong>E-mail:</strong> Konsjerz777@gmail.com <br/>  Gloria.inv2015@gmail.com</p>
+					</div><!-- end address -->
+				</div><!-- end sidebar inner -->
 
-</footer>
+			</div><!-- end sidebar -->
+		</div><!-- end content inner -->
+    </div><!-- end content -->
+    
+    <div id="footer">
+    	<div class="inner container_12 clearfix">
+        
+         <p>Copyright  2016. <!-- Do not remove --><a href="http://m-group.pp.ua" target="_blank">m-group</a><!-- end --><br />
+
+        </div><!-- end footer inner -->
+    </div><!-- end footer -->
+
+</div><!-- end wrapper -->
 </body>
 </html>
